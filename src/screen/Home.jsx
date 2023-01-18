@@ -13,11 +13,9 @@ const Following = () => {
   });
   // I have a composed gesture here but even single one is not working here
   return (
-    <GestureHandlerRootView style={{flex: 1}}>
-      <GestureDetector gesture={longPressGesture}>
-        <View style={styles.box} />
-      </GestureDetector>
-    </GestureHandlerRootView>
+    <GestureDetector gesture={longPressGesture}>
+      <View style={styles.box} />
+    </GestureDetector>
   );
 };
 const Trending = () => {
